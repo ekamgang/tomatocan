@@ -7,13 +7,13 @@ development:
   <<: *default
   encoding: unicode
   database: DEVELOPMENT_DATABASE
-  username: ekamgang
+  username: 
 
 test:
   <<: *default
   encoding: unicode
   database: TEST_DATABASE
-  username: ekamgang
+  username: 
 
 production:
   <<: *default
